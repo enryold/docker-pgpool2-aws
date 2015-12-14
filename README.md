@@ -18,7 +18,7 @@ In todo-list I will make this image able to pull some info from AWS cli (new rep
 ## Usage
 
 ```
-FROM enryold/docker-pgpool2-aws
+FROM enryold/pgpool2-aws
 COPY ./myconfigfolder/* /usr/local/etc/
 ```
 
