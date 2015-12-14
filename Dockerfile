@@ -35,7 +35,7 @@ RUN tar -xvf pgpool-II-3.4.3.tar.gz && \
 
 # AWS certificate
 RUN wget http://s3.amazonaws.com/rds-downloads/rds-combined-ca-bundle.pem && \
-    mv rds-combined-ca-bundle.pem /usr/local/etc/ds-combined-ca-bundle.pem
+    mv rds-combined-ca-bundle.pem /usr/local/etc/rds-combined-ca-bundle.pem
 
 
 # pgpool-service script at start
