@@ -45,9 +45,6 @@ RUN chmod +x /etc/service/pgpoolII/run
 
 
 
-COPY ./pgpool-config/* /usr/local/etc/
-
-
 # Clean up APT when done.
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
