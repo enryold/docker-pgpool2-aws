@@ -13,6 +13,18 @@ In todo-list I will make this image able to pull some info from AWS cli (new rep
 - If you dont use pool_passwd system, leave it blank.
 - Copy your pgpool configuration files into docker folder /usr/local/etc/
 - Start image
+- 
+## Remember
+
+- If you using pgpool streaming_replication feature with check_period remember to set right user and password in your pgpool.conf file
+
+```
+sr_check_user = 'my_user'
+                                   # Streaming replication check user
+                                   # This is neccessary even if you disable streaming
+                                   # replication delay check by sr_check_period = 0
+sr_check_password = 'my_password'
+```
 
 
 ## Usage
