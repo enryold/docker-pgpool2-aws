@@ -16,7 +16,7 @@ In todo-list I will make this image able to pull some info from AWS cli (new rep
 - 
 ## Remember
 
-- If you using pgpool streaming_replication feature with check_period remember to set right user and password in your pgpool.conf file
+- If you use pgpool streaming_replication feature with check_period, remember to set right user and password in your pgpool.conf file
 
 ```
 sr_check_user = 'my_user'
