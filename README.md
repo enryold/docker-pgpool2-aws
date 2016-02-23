@@ -9,8 +9,8 @@ In todo-list I will make this image able to pull some info from AWS cli (new rep
 
 - Use this image as base image.
 - Create your pgpool configuration (pgpool.conf, pgpool_hba.conf, etc..)
-- Create a file named pool_passwd_plain with you dbms username and password.
-- If you dont use pool_passwd system, leave it blank.
+- Create a file named pool_passwd_plain with your dbms username and password.
+- If you don't use pool_passwd system, leave it blank.
 - Copy your pgpool configuration files into docker folder /usr/local/etc/
 - Start image
 
